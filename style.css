@@ -290,7 +290,33 @@ textarea{
 	color: #000;
 	border: 2px solid #000;
 }
-/* Contacts */
+
+
+/* About */
+
+
+.about{
+	width: 90%;
+	margin: 0 auto 50px;
+}
+.imgp img{
+	max-width: 100%;
+}
+.about-text{
+	width: 90%;
+	margin: 20px auto;
+}
+.about-text h1{
+	margin-bottom: 10px;
+	text-align: center;
+}
+.about-text p{
+	margin-bottom: 10px;
+	text-align: justify;
+	font-size: 20px;
+}
+
+
 /* Contacts */
 
 
