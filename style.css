@@ -317,7 +317,28 @@ textarea{
 }
 
 
-/* Contacts */
+/* Services */
+
+
+.main{
+	width: 90%;
+	margin: 0 auto 50px;
+}
+.imgS img{
+	max-width: 100%;
+}
+.ser-text {
+	margin-top: 50px;
+	text-align: center;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 50px 100px;
+}
+.ser-text p{
+	margin: 10px 0;
+	text-align: justify;
+	font-size: 16px;
+}
 
 
 /* Location */
