@@ -175,7 +175,12 @@ footer nav a{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding-bottom: 20px;
+	padding: 60px 0;
+	margin-bottom: 30px;
+	background-color: #ECEDEF;
+	border: 2px solid #858585;
+	border-radius: 20px;
+	box-shadow:0 0 10px rgba(0,0,0,0.5);
 }
 .galary img{
 	margin: 5px;
@@ -298,9 +303,15 @@ textarea{
 .about{
 	width: 90%;
 	margin: 0 auto 50px;
+	padding: 15px;
+	background-color: #ECEDEF;
+	border: 2px solid #858585;
+	border-radius: 20px;
+	box-shadow:0 0 10px rgba(0,0,0,0.5);
 }
 .imgp img{
 	max-width: 100%;
+	border-radius: 20px;
 }
 .about-text{
 	width: 90%;
@@ -323,9 +334,15 @@ textarea{
 .main{
 	width: 90%;
 	margin: 0 auto 50px;
+	padding: 15px;
+	background-color: #ECEDEF;
+	border: 2px solid #858585;
+	border-radius: 20px;
+	box-shadow:0 0 10px rgba(0,0,0,0.5);
 }
 .imgS img{
 	max-width: 100%;
+	border-radius: 20px;
 }
 .ser-text {
 	margin-top: 50px;
@@ -348,6 +365,7 @@ textarea{
 	width: 90%;
 	height: 400px;
 	margin: 10px auto;
+	border-radius: 20px;
 }
 .karta h1{
 	text-align: center;
