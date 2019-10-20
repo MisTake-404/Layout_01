@@ -248,3 +248,23 @@ ul{
 	outline: 1 solid #fff;
 	padding: 5px;
 }
+
+
+/* Contacts */
+
+
+/* Contacts */
+/* Contacts */
+
+
+/* Location */
+
+
+#map{
+	width: 90%;
+	height: 400px;
+	margin: 10px auto;
+}
+.karta h1{
+	text-align: center;
+}
