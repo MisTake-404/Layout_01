@@ -205,18 +205,16 @@ footer nav a{
 	border-bottom: 10px solid #e6e6e6;
 	border-right: 2px solid #e6e6e6;
 	border-left: 2px solid #e6e6e6;
-	box-shadow:0 0 10px rgba(0,0,0,0.5);    
+	box-shadow:0 0 10px rgba(0,0,0,0.5);
+	max-width: 100%;
 }
 .header {
 	display: flex;
 	justify-content: center;
-	border-radius: 10px;
 }
 .header img {
 	border-radius: 10px;
-}
-.photo{
-
+	max-width: 100%;
 }
 .body{
 	width: 80%;
@@ -231,14 +229,22 @@ footer nav a{
 	font-size: 20px;
 	margin: 10px 0 5px;
 }
-.ul{
+ul{
 	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+}
+.tags li + li{
+	margin-left: 10px;
 }
 .tags a{
-	margin: 5px 10px;
-	border: 1 solid #fff;
-	border-radius: 10px;
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
+	flex-wrap: wrap;
+	max-width: 100%;
+	box-sizing: border-box;
+	outline: 1 solid #fff;
+	padding: 5px;
 }
